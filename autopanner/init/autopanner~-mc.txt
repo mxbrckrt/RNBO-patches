@@ -1,0 +1,1 @@
+max objectfile mc.autopanner~ mc.wrapper~ autopanner~;

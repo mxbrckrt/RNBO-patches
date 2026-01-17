@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="smthop">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">smooth</metadata>
+<metadata name="tag">interpolation</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in1"><digest>message input</digest><description>message input</description></method>
+<method name="outscale"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="power" get="1" set="1" size="1" type="float64">
+<digest>power</digest>
+</attribute>
+<attribute name="remote" get="1" set="1" size="1" type="float64">
+<digest>remote</digest>
+</attribute>
+<attribute name="ramp" get="1" set="1" size="1" type="float64">
+<digest>ramp</digest>
+</attribute>
+</attributelist>
+<description>value interpolator like line with log/lin/expo/scale/clip functions</description>
+<digest>value interpolator like line with log/lin/expo/scale/clip functions</digest>
+</c74object>

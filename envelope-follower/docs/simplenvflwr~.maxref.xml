@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="simplenvflwr~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">envelope follower</metadata>
+<metadata name="tag">grain maker</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="gain-in" get="1" set="1" size="1" type="float64">
+<digest>gain-in</digest>
+</attribute>
+<attribute name="slide-in" get="1" set="1" size="1" type="float64">
+<digest>slide-in</digest>
+</attribute>
+<attribute name="lowcut" get="1" set="1" size="1" type="float64">
+<digest>lowcut</digest>
+</attribute>
+<attribute name="slide-out" get="1" set="1" size="1" type="float64">
+<digest>slide-out</digest>
+</attribute>
+<attribute name="threshold" get="1" set="1" size="1" type="float64">
+<digest>threshold</digest>
+</attribute>
+<attribute name="highcut" get="1" set="1" size="1" type="float64">
+<digest>highcut</digest>
+</attribute>
+<attribute name="debounce" get="1" set="1" size="1" type="float64">
+<digest>debounce</digest>
+</attribute>
+<attribute name="listen" get="1" set="1" size="1" type="float64">
+<digest>listen</digest>
+</attribute>
+<attribute name="grain-size" get="1" set="1" size="1" type="float64">
+<digest>grain-size</digest>
+</attribute>
+<attribute name="grain-probability" get="1" set="1" size="1" type="float64">
+<digest>grain-probability</digest>
+</attribute>
+</attributelist>
+<description>simple envelope follower with smoothed values, filtering, debounce</description>
+<digest>simple envelope follower with smoothed values, filtering, debounce</digest>
+</c74object>

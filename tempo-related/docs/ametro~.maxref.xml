@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="ametro~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">metronome</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="start" get="1" set="1" size="1" type="float64">
+<digest>start</digest>
+</attribute>
+<attribute name="rate" get="1" set="1" size="1" type="float64">
+<digest>rate</digest>
+</attribute>
+</attributelist>
+<description>audio rate metronome</description>
+<digest>audio rate metronome</digest>
+</c74object>

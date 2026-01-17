@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="skipper~">
+<metadatalist>
+<metadata name="author">Max Bruckert</metadata>
+<metadata name="tag">looper</metadata>
+<metadata name="tag">skipper</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="triggermode" get="1" set="1" size="1" type="float64">
+<digest>triggermode</digest>
+</attribute>
+<attribute name="automode-on" get="1" set="1" size="1" type="float64">
+<digest>automode-on</digest>
+</attribute>
+<attribute name="trigger" get="1" set="1" size="1" type="float64">
+<digest>trigger</digest>
+</attribute>
+<attribute name="mix" get="1" set="1" size="1" type="float64">
+<digest>mix</digest>
+</attribute>
+<attribute name="kill-capture" get="1" set="1" size="1" type="float64">
+<digest>kill-capture</digest>
+</attribute>
+<attribute name="automode-speedmin" get="1" set="1" size="1" type="float64">
+<digest>automode-speedmin</digest>
+</attribute>
+<attribute name="downsample" get="1" set="1" size="1" type="float64">
+<digest>downsample</digest>
+</attribute>
+<attribute name="speed" get="1" set="1" size="1" type="float64">
+<digest>speed</digest>
+</attribute>
+<attribute name="volume-percentage" get="1" set="1" size="1" type="float64">
+<digest>volume-percentage</digest>
+</attribute>
+<attribute name="hickup-percentage" get="1" set="1" size="1" type="float64">
+<digest>hickup-percentage</digest>
+</attribute>
+<attribute name="pan-percentage" get="1" set="1" size="1" type="float64">
+<digest>pan-percentage</digest>
+</attribute>
+<attribute name="automode-speedmax" get="1" set="1" size="1" type="float64">
+<digest>automode-speedmax</digest>
+</attribute>
+<attribute name="automode-grainmin" get="1" set="1" size="1" type="float64">
+<digest>automode-grainmin</digest>
+</attribute>
+<attribute name="automode-grainmax" get="1" set="1" size="1" type="float64">
+<digest>automode-grainmax</digest>
+</attribute>
+<attribute name="buf4" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "buf4"</description>
+</attribute>
+<attribute name="buf3" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "buf3"</description>
+</attribute>
+</attributelist>
+<description>tries to mimic a skipping cd</description>
+<digest>tries to mimic a skipping cd</digest>
+</c74object>

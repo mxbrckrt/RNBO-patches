@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="sflvoice~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">audio</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in7"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+<method name="in3"><digest>message input</digest><description>message input</description></method>
+<method name="in6"><digest>message input</digest><description>message input</description></method>
+<method name="in4"><digest>message input</digest><description>message input</description></method>
+<method name="in5"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="env-8" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-8"</description>
+</attribute>
+<attribute name="env-7" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-7"</description>
+</attribute>
+<attribute name="env-6" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-6"</description>
+</attribute>
+<attribute name="env-5" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-5"</description>
+</attribute>
+<attribute name="env-4" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-4"</description>
+</attribute>
+<attribute name="env-3" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-3"</description>
+</attribute>
+<attribute name="env-2" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-2"</description>
+</attribute>
+<attribute name="env-1" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-1"</description>
+</attribute>
+</attributelist>
+<description>multitap delay + amp modulation</description>
+<digest>multitap delay + amp modulation</digest>
+</c74object>

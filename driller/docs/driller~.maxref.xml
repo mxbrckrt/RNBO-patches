@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="driller~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">audio</metadata>
+<metadata name="tag">looper</metadata>
+<metadata name="tag">drill delay</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+<method name="in4"><digest>message input</digest><description>message input</description></method>
+<method name="in3"><digest>message input</digest><description>message input</description></method>
+<method name="in7"><digest>message input</digest><description>message input</description></method>
+<method name="in8"><digest>message input</digest><description>message input</description></method>
+<method name="in5"><digest>message input</digest><description>message input</description></method>
+<method name="in6"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist></attributelist>
+<description>looper, delay, glitcher</description>
+<digest>looper, delay, glitcher</digest>
+</c74object>

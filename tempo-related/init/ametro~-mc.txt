@@ -1,0 +1,1 @@
+max objectfile mc.ametro~ mc.wrapper~ ametro~;

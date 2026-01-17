@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="multirgmod~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">audio</metadata>
+<metadata name="tag">ringmodulation</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+<method name="in4"><digest>message input</digest><description>message input</description></method>
+<method name="in3"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist></attributelist>
+<description>multichannel ringmodulation (6 channels)</description>
+<digest>multichannel ringmodulation (6 channels)</digest>
+</c74object>

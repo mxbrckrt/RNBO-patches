@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="spatcontrol~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">audio</metadata>
+<metadata name="tag">ircam spat</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="xy-selector" get="1" set="1" size="1" type="float64">
+<digest>xy-selector</digest>
+</attribute>
+<attribute name="circle-freq" get="1" set="1" size="1" type="float64">
+<digest>circle-freq</digest>
+</attribute>
+<attribute name="x-jitspeed" get="1" set="1" size="1" type="float64">
+<digest>x-jitspeed</digest>
+</attribute>
+<attribute name="x-mult" get="1" set="1" size="1" type="float64">
+<digest>x-mult</digest>
+</attribute>
+<attribute name="x-smoothin" get="1" set="1" size="1" type="float64">
+<digest>x-smoothin</digest>
+</attribute>
+<attribute name="rndm-freq" get="1" set="1" size="1" type="float64">
+<digest>rndm-freq</digest>
+</attribute>
+<attribute name="x-jitpercentage" get="1" set="1" size="1" type="float64">
+<digest>x-jitpercentage</digest>
+</attribute>
+<attribute name="x-sig" get="1" set="1" size="1" type="float64">
+<digest>x-sig</digest>
+</attribute>
+<attribute name="x-offset" get="1" set="1" size="1" type="float64">
+<digest>x-offset</digest>
+</attribute>
+<attribute name="x-smoothout" get="1" set="1" size="1" type="float64">
+<digest>x-smoothout</digest>
+</attribute>
+<attribute name="y-sig" get="1" set="1" size="1" type="float64">
+<digest>y-sig</digest>
+</attribute>
+<attribute name="z-freq" get="1" set="1" size="1" type="float64">
+<digest>z-freq</digest>
+</attribute>
+<attribute name="y-jitspeed" get="1" set="1" size="1" type="float64">
+<digest>y-jitspeed</digest>
+</attribute>
+<attribute name="z-rndm-freq" get="1" set="1" size="1" type="float64">
+<digest>z-rndm-freq</digest>
+</attribute>
+<attribute name="y-jitpercentage" get="1" set="1" size="1" type="float64">
+<digest>y-jitpercentage</digest>
+</attribute>
+<attribute name="z-sig" get="1" set="1" size="1" type="float64">
+<digest>z-sig</digest>
+</attribute>
+<attribute name="y-mult" get="1" set="1" size="1" type="float64">
+<digest>y-mult</digest>
+</attribute>
+<attribute name="y-smoothin" get="1" set="1" size="1" type="float64">
+<digest>y-smoothin</digest>
+</attribute>
+<attribute name="y-offset" get="1" set="1" size="1" type="float64">
+<digest>y-offset</digest>
+</attribute>
+<attribute name="z-jitspeed" get="1" set="1" size="1" type="float64">
+<digest>z-jitspeed</digest>
+</attribute>
+<attribute name="y-smoothout" get="1" set="1" size="1" type="float64">
+<digest>y-smoothout</digest>
+</attribute>
+<attribute name="z-jitpercentage" get="1" set="1" size="1" type="float64">
+<digest>z-jitpercentage</digest>
+</attribute>
+<attribute name="z-selector" get="1" set="1" size="1" type="float64">
+<digest>z-selector</digest>
+</attribute>
+<attribute name="z-mult" get="1" set="1" size="1" type="float64">
+<digest>z-mult</digest>
+</attribute>
+<attribute name="z-offset" get="1" set="1" size="1" type="float64">
+<digest>z-offset</digest>
+</attribute>
+<attribute name="z-smoothin" get="1" set="1" size="1" type="float64">
+<digest>z-smoothin</digest>
+</attribute>
+<attribute name="z-smoothout" get="1" set="1" size="1" type="float64">
+<digest>z-smoothout</digest>
+</attribute>
+</attributelist>
+<description>Generates circular, random and continuous 2 dimensions signals and values . Ment to be remoting IRCAM's Spat5 Sources</description>
+<digest>Generates circular, random and continuous 2 dimensions signals and values . Ment to be remoting IRCAM's Spat5 Sources</digest>
+</c74object>

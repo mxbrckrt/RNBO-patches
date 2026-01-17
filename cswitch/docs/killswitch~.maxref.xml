@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="killswitch~">
+<metadatalist>
+<metadata name="tag">audio</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="amp-in" get="1" set="1" size="1" type="float64">
+<digest>amp-in</digest>
+</attribute>
+<attribute name="amp-out" get="1" set="1" size="1" type="float64">
+<digest>amp-out</digest>
+</attribute>
+<attribute name="width" get="1" set="1" size="1" type="float64">
+<digest>width</digest>
+</attribute>
+<attribute name="reg-rand" get="1" set="1" size="1" type="float64">
+<digest>reg-rand</digest>
+</attribute>
+<attribute name="pan-rndm" get="1" set="1" size="1" type="float64">
+<digest>pan-rndm</digest>
+</attribute>
+<attribute name="ramp" get="1" set="1" size="1" type="float64">
+<digest>ramp</digest>
+</attribute>
+<attribute name="transport" get="1" set="1" size="1" type="symbol">
+<digest>Transport</digest>
+<description>This attribute names a master time <o>transport</o>. If internal frequencies are specified using a 'relative' unit (for example: ticks, bars.beats.units, or notevalues), then the named <o>transport</o> is used to determine the frequency based on tempo, time-signature, and other related information. This defaults to the global 'internal' <o>transport</o>, but any named <o>transport</o> can be used.</description>
+</attribute>
+</attributelist>
+</c74object>

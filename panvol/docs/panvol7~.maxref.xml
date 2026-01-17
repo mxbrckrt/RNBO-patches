@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="panvol7~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">panner</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="volume" get="1" set="1" size="1" type="float64">
+<digest>volume</digest>
+</attribute>
+<attribute name="pan" get="1" set="1" size="1" type="float64">
+<digest>pan</digest>
+</attribute>
+</attributelist>
+<description>pans 6chls between a summed out and 6 different ones (with a limiter)</description>
+<digest>pans 6chls between a summed out and 6 different ones (with a limiter)</digest>
+</c74object>

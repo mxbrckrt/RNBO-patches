@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="ipol">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">interpolation</metadata>
+<metadata name="tag">pattrstorage</metadata>
+<metadata name="tag">pattr</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in1"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="on" get="1" set="1" size="1" type="float64">
+<digest>on</digest>
+</attribute>
+<attribute name="duration" get="1" set="1" size="1" type="float64">
+<digest>duration</digest>
+</attribute>
+<attribute name="rangemin" get="1" set="1" size="1" type="float64">
+<digest>rangemin</digest>
+</attribute>
+<attribute name="rangemax" get="1" set="1" size="1" type="float64">
+<digest>rangemax</digest>
+</attribute>
+</attributelist>
+<description>Interpolates between a random min value and a max. Interpolates between an A value and B one. Changes A value every time it reaches B, and onwards. Handy for pattrstorage interpolation.</description>
+<digest>Interpolates between a random min value and a max. Interpolates between an A value and B one. Changes A value every time it reaches B, and onwards. Handy for pattrstorage interpolation.</digest>
+</c74object>

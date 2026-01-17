@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="cross1~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">crossfade</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in3"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="ramp" get="1" set="1" size="1" type="float64">
+<digest>ramp</digest>
+</attribute>
+</attributelist>
+<description>mono crossfade with variable interpolation time</description>
+<digest>mono crossfade with variable interpolation time</digest>
+</c74object>

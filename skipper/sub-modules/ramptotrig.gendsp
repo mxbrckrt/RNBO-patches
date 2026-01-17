@@ -1,0 +1,271 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 0,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "dsp.gen",
+        "rect": [ 59.0, 125.0, 725.0, 437.0 ],
+        "boxes": [
+            {
+                "box": {
+                    "id": "obj-13",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 28.78787624835968, 25.75757348537445, 294.0, 20.0 ],
+                    "presentation_linecount": 4,
+                    "text": "Patche borrowed to Graham Wakefield's Gen tutorials"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-28",
+                    "linecount": 22,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 322.72724425792694, 71.2121149301529, 323.0, 301.0 ],
+                    "text": "convert ramp to trigger\n\nThis patcher outputs 1 when the incoming ramp has a large change in slope, such as happens at the trough of a triangle or wrap of a phasor.\n\nThe patcher will output a single-sample impuse trigger when this happens, and zero otherwise. \n\nIt will also output a trigger when the phasor is reset, or if it makes a significant sudden change in speed\n\nIt works by looking to see if the per-sample difference of the waveform has made a proportionally significant change; this is extremely the case when a phasor wraps. It will catch wraps in both rising and falling ramps.\n\nThe proportion (difference over sum) will be zero if the two inputs are the same; and will increase in magnitude the more they are different. We use the abs operator because we are not interested whether it gets faster or slower, just that it is changing. "
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-27",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 96.21211272478104, 239.39391827583313, 129.0, 33.0 ],
+                    "text": "is it a significant proportional change?"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 28.030300557613373, 319.6969414949417, 26.0, 22.0 ],
+                    "text": "> 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-12",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 79.54544752836227, 294.69694370031357, 235.0, 47.0 ],
+                    "text": "trigger on false-to-true transition only\n(so that extreme inputs, including triggers, do not cause double-trigger outputs)"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-14",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 28.030300557613373, 294.69694370031357, 48.0, 22.0 ],
+                    "text": "change"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 28.030300557613373, 256.0605834722519, 36.0, 22.0 ],
+                    "text": "> 0.5"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 28.030300557613373, 349.999969124794, 55.0, 22.0 ],
+                    "text": "out 1 trig"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 132.5757458806038, 143.1818055510521, 106.0, 20.0 ],
+                    "text": "previous input"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 132.5757458806038, 180.30301439762115, 129.0, 47.0 ],
+                    "text": "abs (difference / sum) gives absolute proportion of change"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 28.78787624835968, 52.27272266149521, 59.0, 22.0 ],
+                    "text": "in 1 ramp"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-42",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 74.99999338388443, 143.1818055510521, 44.0, 22.0 ],
+                    "text": "history"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-21",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 28.030300557613373, 231.81816136837006, 28.0, 22.0 ],
+                    "text": "abs"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 28.030300557613373, 199.99998235702515, 53.0, 22.0 ],
+                    "text": "/"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-23",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 28.78787624835968, 175.7575602531433, 29.5, 22.0 ],
+                    "text": "-"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 62.121206641197205, 175.7575602531433, 31.5, 22.0 ],
+                    "text": "+"
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-24", 0 ],
+                    "source": [ "obj-14", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-11", 0 ],
+                    "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-10", 0 ],
+                    "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 1 ],
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 1 ],
+                    "order": 1,
+                    "source": [ "obj-42", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 1 ],
+                    "order": 0,
+                    "source": [ "obj-42", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "order": 2,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "midpoints": [ 38.28787624835968, 132.5075602531433, 71.6212066411972, 132.5075602531433 ],
+                    "order": 1,
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-42", 0 ],
+                    "midpoints": [ 38.28787624835968, 132.7524333000183, 84.49999338388443, 132.7524333000183 ],
+                    "order": 0,
+                    "source": [ "obj-7", 0 ]
+                }
+            }
+        ]
+    }
+}

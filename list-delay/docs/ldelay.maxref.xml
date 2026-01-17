@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="ldelay">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">delay</metadata>
+<metadata name="tag">lists</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in1"><digest>message input</digest><description>message input</description></method>
+<method name="stop"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="deltime" get="1" set="1" size="1" type="float64">
+<digest>deltime</digest>
+</attribute>
+</attributelist>
+<description>delay a list of numbers</description>
+<digest>delay a list of numbers</digest>
+</c74object>

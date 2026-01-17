@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="grainer~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">audio</metadata>
+<metadata name="tag">grain</metadata>
+<metadata name="tag">envelope follower</metadata>
+<metadata name="tag">attack detection</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="gain" get="1" set="1" size="1" type="float64">
+<digest>gain</digest>
+</attribute>
+<attribute name="slide-attack" get="1" set="1" size="1" type="float64">
+<digest>slide-attack</digest>
+</attribute>
+<attribute name="thresh" get="1" set="1" size="1" type="float64">
+<digest>thresh</digest>
+</attribute>
+<attribute name="slide-decay" get="1" set="1" size="1" type="float64">
+<digest>slide-decay</digest>
+</attribute>
+<attribute name="antibis" get="1" set="1" size="1" type="float64">
+<digest>antibis</digest>
+</attribute>
+<attribute name="grain" get="1" set="1" size="1" type="float64">
+<digest>grain</digest>
+</attribute>
+<attribute name="proba" get="1" set="1" size="1" type="float64">
+<digest>proba</digest>
+</attribute>
+</attributelist>
+<description>Amp modulation grain generator based on a threshold detection. Probability sets the amount of grain to pass VS the original sound. Can also act as a simple envelope follower and/or attack detection.</description>
+<digest>Amp modulation grain generator based on a threshold detection. Probability sets the amount of grain to pass VS the original sound. Can also act as a simple envelope follower and/or attack detection.</digest>
+</c74object>

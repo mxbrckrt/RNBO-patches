@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="probabang">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">probability</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+<method name="in6"><digest>message input</digest><description>message input</description></method>
+<method name="in1"><digest>message input</digest><description>message input</description></method>
+<method name="in4"><digest>message input</digest><description>message input</description></method>
+<method name="in2"><digest>message input</digest><description>message input</description></method>
+<method name="in3"><digest>message input</digest><description>message input</description></method>
+<method name="in5"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist></attributelist>
+<description>random values generator with interpolation, probability, scale and rest functions</description>
+<digest>random values generator with interpolation, probability, scale and rest functions</digest>
+</c74object>

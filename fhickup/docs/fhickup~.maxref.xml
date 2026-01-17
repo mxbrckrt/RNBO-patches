@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="fhickup~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">filter</metadata>
+<metadata name="tag">distortion</metadata>
+<metadata name="tag">amplitude modulation</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="hickfreq" get="1" set="1" size="1" type="float64">
+<digest>hickfreq</digest>
+</attribute>
+<attribute name="hickclick" get="1" set="1" size="1" type="float64">
+<digest>hickclick</digest>
+</attribute>
+<attribute name="drive" get="1" set="1" size="1" type="float64">
+<digest>drive</digest>
+</attribute>
+<attribute name="hickmix" get="1" set="1" size="1" type="float64">
+<digest>hickmix</digest>
+</attribute>
+<attribute name="freq" get="1" set="1" size="1" type="float64">
+<digest>freq</digest>
+</attribute>
+<attribute name="mix" get="1" set="1" size="1" type="float64">
+<digest>mix</digest>
+</attribute>
+</attributelist>
+<description>filter, distort and amp modulate a signal. Could sound like a old telephone breaking up</description>
+<digest>filter, distort and amp modulate a signal. Could sound like a old telephone breaking up</digest>
+</c74object>

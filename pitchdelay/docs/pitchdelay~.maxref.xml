@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="pitchdelay~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">audio</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="mix" get="1" set="1" size="1" type="float64">
+<digest>mix</digest>
+</attribute>
+<attribute name="window" get="1" set="1" size="1" type="float64">
+<digest>window</digest>
+</attribute>
+<attribute name="transpo" get="1" set="1" size="1" type="float64">
+<digest>transpo</digest>
+</attribute>
+<attribute name="spread" get="1" set="1" size="1" type="float64">
+<digest>spread</digest>
+</attribute>
+<attribute name="deltime-l" get="1" set="1" size="1" type="float64">
+<digest>deltime-l</digest>
+</attribute>
+<attribute name="deltime-r" get="1" set="1" size="1" type="float64">
+<digest>deltime-r</digest>
+</attribute>
+<attribute name="fbck" get="1" set="1" size="1" type="float64">
+<digest>fbck</digest>
+</attribute>
+</attributelist>
+<description>simple pitch + delay/feedback</description>
+<digest>simple pitch + delay/feedback</digest>
+</c74object>

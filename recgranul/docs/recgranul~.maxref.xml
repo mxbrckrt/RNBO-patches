@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--If you edit this file, please place it in a safe place since future exports will overwrite this automatically generated reference file.-->
+<c74object name="recgranul~">
+<metadatalist>
+<metadata name="author">max bruckert</metadata>
+<metadata name="tag">capture</metadata>
+<metadata name="tag">looper</metadata>
+<metadata name="tag">granulator</metadata>
+</metadatalist>
+<methodlist>
+<method name="message"><digest>message input</digest><description>message input</description></method>
+</methodlist>
+<attributelist>
+<attribute name="ply-start" get="1" set="1" size="1" type="float64">
+<digest>ply-start</digest>
+</attribute>
+<attribute name="ply-stop" get="1" set="1" size="1" type="float64">
+<digest>ply-stop</digest>
+</attribute>
+<attribute name="ply-speed" get="1" set="1" size="1" type="float64">
+<digest>ply-speed</digest>
+</attribute>
+<attribute name="ply-audioratethresh" get="1" set="1" size="1" type="float64">
+<digest>ply-audioratethresh</digest>
+</attribute>
+<attribute name="ply-loop" get="1" set="1" size="1" type="float64">
+<digest>ply-loop</digest>
+</attribute>
+<attribute name="ply-crossfade" get="1" set="1" size="1" type="float64">
+<digest>ply-crossfade</digest>
+</attribute>
+<attribute name="ply-env" get="1" set="1" size="1" type="float64">
+<digest>ply-env</digest>
+</attribute>
+<attribute name="ply-loopstart" get="1" set="1" size="1" type="float64">
+<digest>ply-loopstart</digest>
+</attribute>
+<attribute name="pan-spread" get="1" set="1" size="1" type="float64">
+<digest>pan-spread</digest>
+</attribute>
+<attribute name="ply-loopgrain" get="1" set="1" size="1" type="float64">
+<digest>ply-loopgrain</digest>
+</attribute>
+<attribute name="ply-vol" get="1" set="1" size="1" type="float64">
+<digest>ply-vol</digest>
+</attribute>
+<attribute name="ply-randomposition" get="1" set="1" size="1" type="float64">
+<digest>ply-randomposition</digest>
+</attribute>
+<attribute name="pan-position" get="1" set="1" size="1" type="float64">
+<digest>pan-position</digest>
+</attribute>
+<attribute name="pan-smooth" get="1" set="1" size="1" type="float64">
+<digest>pan-smooth</digest>
+</attribute>
+<attribute name="buffer-clear" get="1" set="1" size="1" type="float64">
+<digest>buffer-clear</digest>
+</attribute>
+<attribute name="buffer-size" get="1" set="1" size="1" type="float64">
+<digest>buffer-size</digest>
+</attribute>
+<attribute name="buffer-normalize" get="1" set="1" size="1" type="float64">
+<digest>buffer-normalize</digest>
+</attribute>
+<attribute name="rec-on" get="1" set="1" size="1" type="float64">
+<digest>rec-on</digest>
+</attribute>
+<attribute name="env-8" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-8"</description>
+</attribute>
+<attribute name="env-7" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-7"</description>
+</attribute>
+<attribute name="env-6" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-6"</description>
+</attribute>
+<attribute name="env-5" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-5"</description>
+</attribute>
+<attribute name="env-3" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-3"</description>
+</attribute>
+<attribute name="env-2" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-2"</description>
+</attribute>
+<attribute name="env-1" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-1"</description>
+</attribute>
+<attribute name="env-4" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "env-4"</description>
+</attribute>
+<attribute name="local:thisbuffer" get="1" set="1" size="1" type="symbol">
+<digest>Map buffer by name</digest>
+<description>The value of this attribute indicates the max buffer that this object will use for its internal buffer named "local:thisbuffer"</description>
+</attribute>
+</attributelist>
+<description>captures live audio and makes audio grains. Triggered by messages or at audio rate threshold</description>
+<digest>captures live audio and makes audio grains. Triggered by messages or at audio rate threshold</digest>
+</c74object>

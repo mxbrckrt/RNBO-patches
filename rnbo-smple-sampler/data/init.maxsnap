@@ -1,0 +1,81 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "init",
+	"origin" : "85f501ab-0b56-11ee-81ab-acde48001122",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 1,
+	"snapshot" : 	{
+		"master-vol" : 		{
+			"value" : 1.0
+		}
+,
+		"amp-min" : 		{
+			"value" : 0.1
+		}
+,
+		"reverb-mix" : 		{
+			"value" : 30.0
+		}
+,
+		"__sps" : 		{
+			"buffers" : 			{
+
+			}
+,
+			"handling-offset" : 			{
+
+			}
+,
+			"dcoffsetlimiter" : 			{
+
+			}
+,
+			"simple-random-panner" : 			{
+
+			}
+,
+			"volume" : 			{
+
+			}
+,
+			"mono-sfplayer" : 			{
+
+			}
+
+		}
+,
+		"pitch-min" : 		{
+			"value" : 0.85
+		}
+,
+		"amp-max" : 		{
+			"value" : 1.2
+		}
+,
+		"panning-curve" : 		{
+			"value" : 0.45
+		}
+,
+		"pitch-max" : 		{
+			"value" : 1.5
+		}
+,
+		"panning-ramp" : 		{
+			"value" : 3000.0
+		}
+,
+		"panning-spread" : 		{
+			"value" : 100.0
+		}
+,
+		"player-bank" : 		{
+			"value" : 1.0
+		}
+,
+		"__presetid" : "85f501ab-0b56-11ee-81ab-acde48001122"
+	}
+
+}
